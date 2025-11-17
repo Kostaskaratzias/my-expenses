@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Expenses</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>My Expenses</h1>
+        <div class="container">
+            <div class="fields">
+                <div class="field">
+                    <p>Where did you spent:</p>
+                    <input type="text" id="place"/>
+                </div>
+                <div class="field">
+                    <p>How many did u spent:</p>
+                    <input type="number" id="amount"/>
+                </div>
+                <div class="field">
+                    <p>Ημερομηνία:</p>
+                    <input type="date" id="date" />
+                </div>
+                <button id="add">Add</button>
+                <ol id="list">
+                    
+                </ol>
+                <p>Total: <span id="total">0</span></p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
